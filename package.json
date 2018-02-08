@@ -1,0 +1,16 @@
+{
+  "name": "@tanker/user-token",
+  "version": "0.0.1",
+  "description": "User token generator for tanker.io",
+  "author": "Tanker Team",
+  "main": "src/index.js",
+  "module": "es.js",
+  "files": [
+    "index.js",
+    "es.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@tanker/crypto": "1.3.0"
+  }
+}
