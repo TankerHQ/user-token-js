@@ -1,0 +1,10 @@
+{
+    "plugins": ["transform-flow-strip-types"],
+    "env": {
+        "es5": {
+            "presets": [
+                ["env", { "targets": { "browsers": ["last 2 versions", "ie >= 11"] } }]
+            ]
+        }
+    }
+}
