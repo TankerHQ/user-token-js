@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@tanker/crypto@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@tanker/crypto/-/crypto-1.3.0.tgz#9d0c85db902b88c890ab942e587c27bcee8c5723"
+"@tanker/crypto@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@tanker/crypto/-/crypto-1.4.0.tgz#1c521b9448bc0995a92da7fb29a251b61970ae08"
   dependencies:
     libsodium-wrappers "^0.5.1"
 
