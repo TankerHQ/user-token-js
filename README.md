@@ -7,7 +7,7 @@ User token generation in JavaScript for the [Tanker SDK](https://tanker.io/docs/
 The preferred way of using the component is via NPM:
 
 ```bash
-npm install --save @tanker/user-token@1.4.0
+npm install --save @tanker/user-token
 ```
 
 ## Usage
