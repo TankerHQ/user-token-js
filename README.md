@@ -1,4 +1,4 @@
-# User Token
+# User Token [![Travis][build-badge]][build]
 
 User token generation in JavaScript for the [Tanker SDK](https://tanker.io/docs/latest).
 
@@ -61,3 +61,6 @@ Build the package with `yarn build`.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/SuperTanker/user-token-js.
+
+[build-badge]: https://travis-ci.org/SuperTanker/user-token-js.svg?branch=master
+[build]: https://travis-ci.org/SuperTanker/user-token-js
