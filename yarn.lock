@@ -2,10 +2,11 @@
 # yarn lockfile v1
 
 
-"@tanker/crypto@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@tanker/crypto/-/crypto-1.4.0.tgz#1c521b9448bc0995a92da7fb29a251b61970ae08"
+"@tanker/crypto@1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@tanker/crypto/-/crypto-1.6.2.tgz#a5a8191bbf48e8110224a7a6a922bcca372aa6b7"
   dependencies:
+    babel-runtime "^6.22.0"
     libsodium-wrappers "^0.5.1"
 
 abbrev@1:
@@ -540,9 +541,9 @@ babel-polyfill@^6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-env@^1.6.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
+babel-preset-env@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.7.0.tgz#dea79fa4ebeb883cd35dab07e260c1c9c04df77a"
   dependencies:
     babel-plugin-check-es2015-constants "^6.22.0"
     babel-plugin-syntax-trailing-function-commas "^6.22.0"
@@ -571,7 +572,7 @@ babel-preset-env@^1.6.0:
     babel-plugin-transform-es2015-unicode-regex "^6.22.0"
     babel-plugin-transform-exponentiation-operator "^6.22.0"
     babel-plugin-transform-regenerator "^6.22.0"
-    browserslist "^2.1.2"
+    browserslist "^3.2.6"
     invariant "^2.2.2"
     semver "^5.3.0"
 
@@ -704,12 +705,12 @@ browser-stdout@1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/browser-stdout/-/browser-stdout-1.3.1.tgz#baa559ee14ced73452229bad7326467c61fabd60"
 
-browserslist@^2.1.2:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.11.3.tgz#fe36167aed1bbcde4827ebfe71347a2cc70b99b2"
+browserslist@^3.2.6:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.7.tgz#aa488634d320b55e88bab0256184dbbcca1e6de9"
   dependencies:
-    caniuse-lite "^1.0.30000792"
-    electron-to-chromium "^1.3.30"
+    caniuse-lite "^1.0.30000835"
+    electron-to-chromium "^1.3.45"
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -729,9 +730,9 @@ camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
-caniuse-lite@^1.0.30000792:
-  version "1.0.30000804"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000804.tgz#8729a143d65378e8936adbb161f550e9c49fc09d"
+caniuse-lite@^1.0.30000835:
+  version "1.0.30000841"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000841.tgz#200079f853ca2839cb80852348d09a551f92f70a"
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -869,14 +870,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cross-env@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.1.4.tgz#f61c14291f7cc653bb86457002ea80a04699d022"
-  dependencies:
-    cross-spawn "^5.1.0"
-    is-windows "^1.0.0"
-
-cross-spawn@^5.0.1, cross-spawn@^5.1.0:
+cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
   dependencies:
@@ -966,9 +960,9 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-electron-to-chromium@^1.3.30:
-  version "1.3.33"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.33.tgz#bf00703d62a7c65238136578c352d6c5c042a545"
+electron-to-chromium@^1.3.45:
+  version "1.3.46"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.46.tgz#00e85e22275415a887505e4ab49737194f18b9b0"
 
 escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2:
   version "1.0.5"
@@ -1087,9 +1081,9 @@ find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-flow-bin@^0.61.0:
-  version "0.61.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.61.0.tgz#d0473a8c35dbbf4de573823f4932124397d32d35"
+flow-bin@^0.72.0:
+  version "0.72.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.72.0.tgz#12051180fb2db7ccb728fefe67c77e955e92a44d"
 
 flow-copy-source@^1.2.1:
   version "1.3.0"
@@ -1512,10 +1506,6 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
-is-windows@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
-
 isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
@@ -1733,7 +1723,7 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
-minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -1760,9 +1750,9 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha@^5.0.5:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/mocha/-/mocha-5.0.5.tgz#e228e3386b9387a4710007a641f127b00be44b52"
+mocha@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/mocha/-/mocha-5.1.1.tgz#b774c75609dac05eb48f4d9ba1d827b97fde8a7b"
   dependencies:
     browser-stdout "1.3.1"
     commander "2.11.0"
@@ -1772,6 +1762,7 @@ mocha@^5.0.5:
     glob "7.1.2"
     growl "1.10.3"
     he "1.1.1"
+    minimatch "3.0.4"
     mkdirp "0.5.1"
     supports-color "4.4.0"
 
