@@ -3,7 +3,7 @@ import { generichash, tcrypto, utils, createUserSecretB64, type b64string } from
 
 function logError(step: string, err: Error): void {
   if (console && 'error' in console) {
-    console.error(`Failed to ${step}: ${err}`);
+    console.error(`Failed to ${step}:`, err);
   }
 }
 
