@@ -60,7 +60,7 @@ Build the package with `yarn build`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/SuperTanker/user-token-js.
+Bug reports and pull requests are welcome on GitHub at https://github.com/TankerHQ/user-token-js.
 
-[build-badge]: https://travis-ci.org/SuperTanker/user-token-js.svg?branch=master
-[build]: https://travis-ci.org/SuperTanker/user-token-js
+[build-badge]: https://travis-ci.org/TankerHQ/user-token-js.svg?branch=master
+[build]: https://travis-ci.org/TankerHQ/user-token-js
