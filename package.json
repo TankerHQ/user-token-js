@@ -2,6 +2,7 @@
   "name": "@tanker/user-token",
   "version": "1.4.1",
   "description": "User token generator for tanker.io",
+  "license": "Apache-2.0",
   "author": "Tanker Team",
   "main": "lib/index.js",
   "module": "es/index.js",
