@@ -1,4 +1,6 @@
-# User Token [![Travis][build-badge]][build]
+# User Token
+
+[![Build](https://img.shields.io/travis/TankerHQ/user-token-js.svg?branch=master)](https://travis-ci.org/TankerHQ/user-token-js)
 
 User token generation in JavaScript for the [Tanker SDK](https://tanker.io/docs/latest).
 
