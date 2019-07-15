@@ -20,7 +20,7 @@
     "test": "BABEL_ENV=es5 mocha \"tests/**/*.spec.js\" --require babel-register --exit --recursive --full-trace --reporter=spec"
   },
   "dependencies": {
-    "@tanker/crypto": "1.6.2"
+    "@tanker/crypto": "1.10.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
